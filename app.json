@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "Space Predictive Analytics",
+    "slug": "space-predictive-analytics",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "scheme": "spaceanalytics",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#050A18"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
